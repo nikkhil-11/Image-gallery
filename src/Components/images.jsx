@@ -35,7 +35,7 @@ return(
       <div>
         <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-0">
                 {people.map((Person, index) =>{
-                  return <div  className="w-full" key={index}> <img src={Person.image} className="h-80 w-full" /></div>
+                  return <div  className="w-full" key={index}> <img src={Person.image} className="h-80 w-full object-cover" /></div>
                 })}
         </div>
       </div>
