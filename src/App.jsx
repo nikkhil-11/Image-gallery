@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Profile from './Components/profile'
 import Brand from './Components/brands'
 import Image from './Components/images'
+import Footer from './Components/footer'
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <Profile/>
     <Brand/>
     <Image/>
+    <Footer/>    
    </div>
   )
 }
