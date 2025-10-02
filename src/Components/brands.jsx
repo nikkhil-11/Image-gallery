@@ -21,11 +21,11 @@ return(
 
 
 
-            <div className="hidden lg:block">
+            <div className="hidden sm:block">
                 <img src={crollaImage} alt="just a logo" className="w-32 h-12 cursor-pointer" />
             </div>
 
-            <div className="hidden md:block">
+            <div className="hidden sm:block">
                 <img src={crollaImage} alt="just a logo" className="w-32 h-12 cursor-pointer" />
             </div>
 </div>
